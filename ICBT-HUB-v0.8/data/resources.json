@@ -1,0 +1,46 @@
+{
+  "templates": [
+    {
+      "title": "Informe de laboratorio",
+      "desc": "Objetivo, metodología, resultados y discusión · Markdown editable",
+      "file": "assets/templates/1.md"
+    },
+    {
+      "title": "Informe de ingeniería",
+      "desc": "Estructura para proyectos y análisis técnicos · Markdown editable",
+      "file": "assets/templates/2.md"
+    },
+    {
+      "title": "Presentación académica",
+      "desc": "Guion editable para una exposición · Markdown editable",
+      "file": "assets/templates/3.md"
+    }
+  ],
+  "faq": [
+    {
+      "title": "Inscripción de asignaturas",
+      "desc": "Carga académica",
+      "answer": "Consulta las fechas y condiciones vigentes con la unidad académica correspondiente. Revisa tus prerrequisitos en la malla."
+    },
+    {
+      "title": "Certificados",
+      "desc": "Documentación",
+      "answer": "Consulta los canales institucionales para conocer los certificados disponibles y su procedimiento de solicitud."
+    },
+    {
+      "title": "Convalidaciones",
+      "desc": "Reconocimiento de estudios",
+      "answer": "Solicita orientación a la dirección de carrera sobre antecedentes y requisitos aplicables."
+    },
+    {
+      "title": "Prácticas profesionales",
+      "desc": "Formación aplicada",
+      "answer": "Consulta con la coordinación de carrera los requisitos, plazos y documentación vigentes."
+    },
+    {
+      "title": "Beneficios estudiantiles",
+      "desc": "Apoyo estudiantil",
+      "answer": "Consulta los canales oficiales de bienestar estudiantil para conocer opciones y fechas."
+    }
+  ]
+}

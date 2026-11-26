@@ -1,0 +1,750 @@
+{
+  "careerCode": "30090",
+  "career": "Ingeniería Civil en Biotecnología",
+  "sourceVersion": "Diciembre 2025 (borrador aportado por estudiante; no verificado institucionalmente)",
+  "totalSCT": 330,
+  "curriculum": [
+    {
+      "code": "ING050",
+      "name": "Ingeniería y Sociedad",
+      "level": 1,
+      "year": 1,
+      "sct": 4,
+      "area": "Ingeniería Aplicada",
+      "prereqs": []
+    },
+    {
+      "code": "IME042",
+      "name": "Fundamentos de Cálculo",
+      "level": 1,
+      "year": 1,
+      "sct": 6,
+      "area": "Ciencias Básicas",
+      "prereqs": []
+    },
+    {
+      "code": "IME043",
+      "name": "Álgebra",
+      "level": 1,
+      "year": 1,
+      "sct": 6,
+      "area": "Ciencias Básicas",
+      "prereqs": []
+    },
+    {
+      "code": "ICQ011",
+      "name": "Introducción a la Química",
+      "level": 1,
+      "year": 1,
+      "sct": 5,
+      "area": "Ciencias Básicas",
+      "prereqs": []
+    },
+    {
+      "code": "DFI052",
+      "name": "Habilidades Comunicativas en Ingeniería",
+      "level": 1,
+      "year": 1,
+      "sct": 3,
+      "area": "Formación General",
+      "prereqs": []
+    },
+    {
+      "code": "ING101",
+      "name": "Introducción al Diseño de Ingeniería",
+      "level": 2,
+      "year": 1,
+      "sct": 5,
+      "area": "Ingeniería Aplicada",
+      "prereqs": [
+        "ING050"
+      ]
+    },
+    {
+      "code": "IME044",
+      "name": "Cálculo en una Variable",
+      "level": 2,
+      "year": 1,
+      "sct": 6,
+      "area": "Ciencias Básicas",
+      "prereqs": [
+        "IME042"
+      ]
+    },
+    {
+      "code": "IME049",
+      "name": "Matemática para la Computación",
+      "level": 2,
+      "year": 1,
+      "sct": 4,
+      "area": "Ciencias Básicas",
+      "prereqs": [
+        "IME043"
+      ]
+    },
+    {
+      "code": "ICF011",
+      "name": "Física I",
+      "level": 2,
+      "year": 1,
+      "sct": 6,
+      "area": "Ciencias Básicas",
+      "prereqs": [
+        "IME042",
+        "IME043"
+      ]
+    },
+    {
+      "code": "ING011",
+      "name": "Laboratorio de Ciencias",
+      "level": 2,
+      "year": 1,
+      "sct": 5,
+      "area": "Ciencias Básicas",
+      "prereqs": [
+        "ICQ011"
+      ]
+    },
+    {
+      "code": "ING012",
+      "name": "Fundamentos de Ecodiseño",
+      "level": 3,
+      "year": 2,
+      "sct": 4,
+      "area": "Ingeniería Aplicada",
+      "prereqs": [
+        "ING101"
+      ]
+    },
+    {
+      "code": "ING400",
+      "name": "Electivo de Ingeniería",
+      "level": 3,
+      "year": 2,
+      "sct": 3,
+      "area": "Ingeniería Aplicada",
+      "prereqs": [
+        "ING101"
+      ]
+    },
+    {
+      "code": "IME085",
+      "name": "Cálculo Multivariable",
+      "level": 3,
+      "year": 2,
+      "sct": 5,
+      "area": "Ciencias Básicas",
+      "prereqs": [
+        "IME044"
+      ]
+    },
+    {
+      "code": "IME086",
+      "name": "Álgebra Lineal",
+      "level": 3,
+      "year": 2,
+      "sct": 5,
+      "area": "Ciencias Básicas",
+      "prereqs": [
+        "IME043",
+        "IME049"
+      ]
+    },
+    {
+      "code": "ICF177",
+      "name": "Física II",
+      "level": 3,
+      "year": 2,
+      "sct": 6,
+      "area": "Ciencias Básicas",
+      "prereqs": [
+        "ICF011",
+        "IME044"
+      ]
+    },
+    {
+      "code": "ICC157",
+      "name": "Taller de Programación",
+      "level": 3,
+      "year": 2,
+      "sct": 3,
+      "area": "Ingeniería Aplicada",
+      "prereqs": [
+        "IME049"
+      ]
+    },
+    {
+      "code": "ING200",
+      "name": "Taller de Diseño de Ingeniería",
+      "level": 4,
+      "year": 2,
+      "sct": 6,
+      "area": "Ingeniería Aplicada",
+      "prereqs": [
+        "ING012"
+      ]
+    },
+    {
+      "code": "IBT201",
+      "name": "Termodinámica General",
+      "level": 4,
+      "year": 2,
+      "sct": 5,
+      "area": "Ingeniería de Bioprocesos",
+      "prereqs": [
+        "ICQ011",
+        "IME085"
+      ]
+    },
+    {
+      "code": "IBT202",
+      "name": "Química Orgánica",
+      "level": 4,
+      "year": 2,
+      "sct": 4,
+      "area": "Biociencias y Genética",
+      "prereqs": [
+        "ICQ011",
+        "ING011"
+      ]
+    },
+    {
+      "code": "IME087",
+      "name": "Ecuaciones Diferenciales",
+      "level": 4,
+      "year": 2,
+      "sct": 6,
+      "area": "Ciencias Básicas",
+      "prereqs": [
+        "IME085",
+        "IME086"
+      ]
+    },
+    {
+      "code": "ICF013",
+      "name": "Física III",
+      "level": 4,
+      "year": 2,
+      "sct": 5,
+      "area": "Ciencias Básicas",
+      "prereqs": [
+        "ICF177",
+        "IME085"
+      ]
+    },
+    {
+      "code": "I94152",
+      "name": "Electivo de Formación General I",
+      "level": 4,
+      "year": 2,
+      "sct": 3,
+      "area": "Formación General",
+      "prereqs": []
+    },
+    {
+      "code": "IIS255",
+      "name": "Economía y Finanzas Empresariales",
+      "level": 5,
+      "year": 3,
+      "sct": 5,
+      "area": "Gestión y Electivos",
+      "prereqs": [
+        "IME085"
+      ]
+    },
+    {
+      "code": "IBT251",
+      "name": "Biología y Bioquímica General",
+      "level": 5,
+      "year": 3,
+      "sct": 5,
+      "area": "Biociencias y Genética",
+      "prereqs": [
+        "IBT202"
+      ]
+    },
+    {
+      "code": "IBT252",
+      "name": "Balance de Materia y Energía",
+      "level": 5,
+      "year": 3,
+      "sct": 6,
+      "area": "Ingeniería de Bioprocesos",
+      "prereqs": [
+        "IBT201",
+        "IME087"
+      ]
+    },
+    {
+      "code": "IBT253",
+      "name": "Mecánica de Sistemas Fluidos",
+      "level": 5,
+      "year": 3,
+      "sct": 6,
+      "area": "Ingeniería de Bioprocesos",
+      "prereqs": [
+        "ICF011",
+        "IME087"
+      ]
+    },
+    {
+      "code": "IME088",
+      "name": "Probabilidad y Estadística para Ingeniería",
+      "level": 5,
+      "year": 3,
+      "sct": 5,
+      "area": "Ciencias Básicas",
+      "prereqs": [
+        "IME085"
+      ]
+    },
+    {
+      "code": "I94252",
+      "name": "Electivo de Formación General II",
+      "level": 5,
+      "year": 3,
+      "sct": 3,
+      "area": "Formación General",
+      "prereqs": []
+    },
+    {
+      "code": "IIS011",
+      "name": "Formulación y Evaluación de Proyectos",
+      "level": 6,
+      "year": 3,
+      "sct": 4,
+      "area": "Gestión y Electivos",
+      "prereqs": [
+        "IIS255"
+      ]
+    },
+    {
+      "code": "IBT301",
+      "name": "Microbiología General",
+      "level": 6,
+      "year": 3,
+      "sct": 6,
+      "area": "Biociencias y Genética",
+      "prereqs": [
+        "IBT251"
+      ]
+    },
+    {
+      "code": "IBT302",
+      "name": "Biología Molecular",
+      "level": 6,
+      "year": 3,
+      "sct": 5,
+      "area": "Biociencias y Genética",
+      "prereqs": [
+        "IBT251"
+      ]
+    },
+    {
+      "code": "IBT303",
+      "name": "Transferencia de Calor y Masa",
+      "level": 6,
+      "year": 3,
+      "sct": 6,
+      "area": "Ingeniería de Bioprocesos",
+      "prereqs": [
+        "IBT252",
+        "IBT253"
+      ]
+    },
+    {
+      "code": "IBT304",
+      "name": "Bioinformática",
+      "level": 6,
+      "year": 3,
+      "sct": 6,
+      "area": "Biociencias y Genética",
+      "prereqs": [
+        "IBT251",
+        "ICC157",
+        "IME088"
+      ]
+    },
+    {
+      "code": "I94352",
+      "name": "Electivo de Formación General III",
+      "level": 6,
+      "year": 3,
+      "sct": 3,
+      "area": "Formación General",
+      "prereqs": []
+    },
+    {
+      "code": "IIS598",
+      "name": "Diseño de Negocios Innovadores",
+      "level": 7,
+      "year": 4,
+      "sct": 4,
+      "area": "Gestión y Electivos",
+      "prereqs": [
+        "IIS011"
+      ]
+    },
+    {
+      "code": "IBT351",
+      "name": "Operaciones Unitarias",
+      "level": 7,
+      "year": 4,
+      "sct": 6,
+      "area": "Ingeniería de Bioprocesos",
+      "prereqs": [
+        "IBT303"
+      ]
+    },
+    {
+      "code": "IBT352",
+      "name": "Ingeniería Genética",
+      "level": 7,
+      "year": 4,
+      "sct": 5,
+      "area": "Biociencias y Genética",
+      "prereqs": [
+        "IBT302"
+      ]
+    },
+    {
+      "code": "IBT353",
+      "name": "Enzimas y Estructura de Proteínas",
+      "level": 7,
+      "year": 4,
+      "sct": 5,
+      "area": "Biociencias y Genética",
+      "prereqs": [
+        "IBT251",
+        "IBT302"
+      ]
+    },
+    {
+      "code": "IBT354",
+      "name": "Microbiología Aplicada",
+      "level": 7,
+      "year": 4,
+      "sct": 5,
+      "area": "Biociencias y Genética",
+      "prereqs": [
+        "IBT301"
+      ]
+    },
+    {
+      "code": "IBT355",
+      "name": "Sistemas de Gestión",
+      "level": 7,
+      "year": 4,
+      "sct": 4,
+      "area": "Gestión y Electivos",
+      "prereqs": [
+        "ING200",
+        "IIS011"
+      ]
+    },
+    {
+      "code": "ING300",
+      "name": "Taller de Empresas Tecnológicas",
+      "level": 8,
+      "year": 4,
+      "sct": 5,
+      "area": "Ingeniería Aplicada",
+      "prereqs": [
+        "IIS598"
+      ]
+    },
+    {
+      "code": "IBT401",
+      "name": "Tópicos en Inmunología y Biomédica",
+      "level": 8,
+      "year": 4,
+      "sct": 5,
+      "area": "Biociencias y Genética",
+      "prereqs": [
+        "IBT352",
+        "IBT353"
+      ]
+    },
+    {
+      "code": "IBT402",
+      "name": "Ingeniería Metabólica",
+      "level": 8,
+      "year": 4,
+      "sct": 6,
+      "area": "Biociencias y Genética",
+      "prereqs": [
+        "IBT352",
+        "IBT304"
+      ]
+    },
+    {
+      "code": "IBT403",
+      "name": "Diseño de Biorreactores",
+      "level": 8,
+      "year": 4,
+      "sct": 5,
+      "area": "Ingeniería de Bioprocesos",
+      "prereqs": [
+        "IBT351",
+        "IBT354"
+      ]
+    },
+    {
+      "code": "IBT404",
+      "name": "Modelación y Simulación de Procesos",
+      "level": 8,
+      "year": 4,
+      "sct": 5,
+      "area": "Ingeniería de Bioprocesos",
+      "prereqs": [
+        "IBT351",
+        "IME087"
+      ]
+    },
+    {
+      "code": "IBT451",
+      "name": "Taller de Diseño de Procesos Biotecnológicos",
+      "level": 9,
+      "year": 5,
+      "sct": 5,
+      "area": "Ingeniería de Bioprocesos",
+      "prereqs": [
+        "IBT403",
+        "IBT404"
+      ]
+    },
+    {
+      "code": "IBT452",
+      "name": "Electivo de Especialidad I",
+      "level": 9,
+      "year": 5,
+      "sct": 4,
+      "area": "Gestión y Electivos",
+      "prereqs": [
+        "IBT402"
+      ]
+    },
+    {
+      "code": "IBT453",
+      "name": "Electivo de Especialidad II",
+      "level": 9,
+      "year": 5,
+      "sct": 4,
+      "area": "Gestión y Electivos",
+      "prereqs": [
+        "IBT403"
+      ]
+    },
+    {
+      "code": "IBT454",
+      "name": "Purificación y Separación de Proteínas",
+      "level": 9,
+      "year": 5,
+      "sct": 5,
+      "area": "Ingeniería de Bioprocesos",
+      "prereqs": [
+        "IBT351",
+        "IBT353"
+      ]
+    },
+    {
+      "code": "IBT455",
+      "name": "Control e Instrumentación de Procesos",
+      "level": 9,
+      "year": 5,
+      "sct": 5,
+      "area": "Ingeniería de Bioprocesos",
+      "prereqs": [
+        "IBT404"
+      ]
+    },
+    {
+      "code": "I94354",
+      "name": "Electivo de Formación General IV",
+      "level": 9,
+      "year": 5,
+      "sct": 3,
+      "area": "Formación General",
+      "prereqs": []
+    },
+    {
+      "code": "ING500",
+      "name": "Capstone Multidisciplinario",
+      "level": 10,
+      "year": 5,
+      "sct": 5,
+      "area": "Ingeniería Aplicada",
+      "prereqs": [
+        "ING300",
+        "IBT451"
+      ]
+    },
+    {
+      "code": "IBT501",
+      "name": "Electivo de Especialidad III",
+      "level": 10,
+      "year": 5,
+      "sct": 4,
+      "area": "Gestión y Electivos",
+      "prereqs": [
+        "IBT452"
+      ]
+    },
+    {
+      "code": "IBT502",
+      "name": "Electivo de Especialidad IV",
+      "level": 10,
+      "year": 5,
+      "sct": 4,
+      "area": "Gestión y Electivos",
+      "prereqs": [
+        "IBT453"
+      ]
+    },
+    {
+      "code": "IBT503",
+      "name": "Recursos Humanos y Legislación Laboral",
+      "level": 10,
+      "year": 5,
+      "sct": 5,
+      "area": "Gestión y Electivos",
+      "prereqs": [
+        "IBT355"
+      ]
+    },
+    {
+      "code": "IBT504",
+      "name": "Servicios y Seguridad Industrial",
+      "level": 10,
+      "year": 5,
+      "sct": 5,
+      "area": "Ingeniería de Bioprocesos",
+      "prereqs": [
+        "IBT451",
+        "IBT355"
+      ]
+    },
+    {
+      "code": "IBT505",
+      "name": "Industria de Procesos Biotecnológicos",
+      "level": 10,
+      "year": 5,
+      "sct": 3,
+      "area": "Ingeniería de Bioprocesos",
+      "prereqs": [
+        "IBT451",
+        "IBT454"
+      ]
+    },
+    {
+      "code": "I94460",
+      "name": "Actividad de Titulación",
+      "level": 11,
+      "year": 6,
+      "sct": 29,
+      "area": "Ingeniería Aplicada",
+      "prereqs": [
+        "ING500",
+        "IBT501",
+        "IBT502",
+        "IBT503",
+        "IBT504",
+        "IBT505"
+      ]
+    }
+  ],
+  "extracurricular": [
+    {
+      "code": "COD592",
+      "name": "Inglés Principiante",
+      "category": "Idioma Inglés (Requisito Licenciatura)",
+      "sct": 0,
+      "prereqs": [],
+      "note": "Nivel inicial según diagnóstico institucional"
+    },
+    {
+      "code": "COD558",
+      "name": "Inglés Básico",
+      "category": "Idioma Inglés (Requisito Licenciatura)",
+      "sct": 0,
+      "prereqs": [
+        "COD592"
+      ],
+      "note": "Continuidad programa de idiomas COD"
+    },
+    {
+      "code": "COD559",
+      "name": "Inglés Preintermedio",
+      "category": "Idioma Inglés (Requisito Licenciatura)",
+      "sct": 0,
+      "prereqs": [
+        "COD558"
+      ],
+      "note": "Continuidad programa de idiomas COD"
+    },
+    {
+      "code": "COD560",
+      "name": "Inglés Intermedio",
+      "category": "Idioma Inglés (Requisito Licenciatura)",
+      "sct": 0,
+      "prereqs": [
+        "COD559"
+      ],
+      "note": "Habilita para rendir Suficiencia de Inglés"
+    },
+    {
+      "code": "COD606",
+      "name": "Examen de Suficiencia Inglés",
+      "category": "Hito Licenciatura (12 SCT)",
+      "sct": 12,
+      "prereqs": [
+        "COD560"
+      ],
+      "note": "Obligatorio junto a Niveles 1-8 para Licenciatura (12 SCT)"
+    },
+    {
+      "code": "I94500",
+      "name": "Práctica de Estudios I*",
+      "category": "Prácticas Profesionales (6 SCT)",
+      "sct": 6,
+      "prereqs": [
+        "ING200"
+      ],
+      "note": "Realizar preferentemente en vacaciones de verano (6 SCT)"
+    },
+    {
+      "code": "I94502",
+      "name": "Práctica de Estudios II*",
+      "category": "Prácticas Profesionales (6 SCT)",
+      "sct": 6,
+      "prereqs": [
+        "I94500",
+        "ING300"
+      ],
+      "note": "Realizar preferentemente en vacaciones de verano tras 8° nivel (6 SCT)"
+    },
+    {
+      "code": "I94505",
+      "name": "Actividad de Vinculación con entorno profesional***",
+      "category": "Vinculación con el Medio (2 SCT)",
+      "sct": 2,
+      "prereqs": [],
+      "note": "Puede realizarse hasta el décimo nivel de la carrera (2 SCT)"
+    },
+    {
+      "code": "I94470",
+      "name": "Actividades Extracurriculares***",
+      "category": "Formación Integral (3 SCT)",
+      "sct": 3,
+      "prereqs": [],
+      "note": "Puede realizarse hasta el décimo nivel de la carrera (3 SCT)"
+    }
+  ],
+  "licenciatura": {
+    "maxLevel": 8,
+    "additional": [
+      "COD606"
+    ]
+  },
+  "recommendedLoad": 32
+}

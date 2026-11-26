@@ -1,0 +1,1 @@
+{"name": "ICBT HUB", "short_name": "ICBT HUB", "start_url": "./index.html", "scope": "./", "display": "standalone", "background_color": "#21162F", "theme_color": "#21162F", "icons": [{"src": "assets/brand/05_Isotipo.svg", "sizes": "any", "type": "image/svg+xml"}]}

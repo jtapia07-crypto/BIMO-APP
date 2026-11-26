@@ -1,0 +1,14 @@
+import {loadCurriculum,readProgress} from '../core/curriculum.js';
+const read=(key,fallback)=>{try{return JSON.parse(localStorage.getItem(key))??fallback}catch{return fallback}};
+const element=(tag,text,className)=>{const n=document.createElement(tag);if(text!==undefined)n.textContent=text;if(className)n.className=className;return n};
+export async function initInicio(){
+ const value=document.querySelector('#progress-value'),bar=document.querySelector('#progress-bar'),note=document.querySelector('#progress-note'),upcoming=document.querySelector('#upcoming'),greeting=document.querySelector('#greeting');if(!value||!bar||!note)return;
+ function personal(){
+  const profile=read('icbt-hub.social.v1.perfil',{});if(greeting)greeting.textContent='Hola, '+(typeof profile?.name==='string'&&profile.name.trim()?profile.name.trim().slice(0,45):'estudiante');
+  if(!upcoming)return;const date=new Date().toLocaleDateString('sv-SE');const records=read('icbt-hub.social.v1.calendario',[]);const events=(Array.isArray(records)?records:[]).filter(x=>x&&typeof x.title==='string'&&/^\d{4}-\d{2}-\d{2}$/.test(x.date)&&x.date>=date).sort((a,b)=>a.date.localeCompare(b.date)).slice(0,3);upcoming.replaceChildren();
+  if(!events.length){const empty=element('div',undefined,'event-empty');const a=element('a','Añadir actividad →');a.href='pages/calendario.html#nueva-actividad';empty.append(element('strong','Aún no tienes actividades próximas.'),element('p','Registra evaluaciones, entregas o eventos de tu semestre.'),a);upcoming.append(empty);return}
+  for(const x of events){const d=new Date(x.date+'T12:00:00');if(Number.isNaN(+d))continue;const a=element('a',undefined,'event-row');a.href='pages/calendario.html';const stamp=element('span',undefined,'event-date');stamp.append(element('b',String(d.getDate())),element('span',d.toLocaleDateString('es-CL',{month:'short'}).replace('.','')));const copy=element('span',undefined,'event-copy');copy.append(element('strong',x.title),element('small',d.toLocaleDateString('es-CL',{weekday:'long',day:'numeric',month:'long'})));const arrow=element('span','→');arrow.setAttribute('aria-hidden','true');a.append(stamp,copy,arrow);upcoming.append(a)}
+ }
+ personal();window.addEventListener('pageshow',personal);window.addEventListener('storage',personal);
+ try{const model=await loadCurriculum();function render(){const {state,saved}=readProgress(model),s=model.stats(state);value.textContent=s.pct.toLocaleString('es-CL')+'%';bar.value=s.pct;note.replaceChildren(element('span',`${s.approvedCount} de ${model.data.curriculum.length} asignaturas`),element('br'),element('span',`${s.approvedSCT} / ${model.data.totalSCT} SCT`));if(!saved)note.append(element('br'),element('span','Almacenamiento no disponible'));}render();window.addEventListener('pageshow',render);window.addEventListener('storage',render);}catch{bar.hidden=true;note.textContent='No se pudo cargar la malla. Abre el proyecto mediante un servidor HTTP local.';}
+}
